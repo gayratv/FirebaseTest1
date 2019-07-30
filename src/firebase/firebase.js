@@ -1,5 +1,5 @@
 
-
+import React from 'react';
 import app from "firebase/app";
 import "firebase/auth";
 import "firebase/firestore";
@@ -36,5 +36,11 @@ class Firebase {
     }
 }
 
+console.log('firebase Start');
+
 const firebase = new Firebase();
+// const firebase = 1;
+
+console.log('firebase END');
+
 export default firebase;
